@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(120deg, #02022a, #2ba5ce);
+    overflow: hidden;
+    font-family: cursive;
+    height: 100vh;
+}
+
+h1 {
+    padding: 15px 10px;
+}
+
+.bienvenido{
+    text-align: center;
+}
+
+.all {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+    background: white;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 15px;
+    position: fixed;
+    top: 80%;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.consul{
+    width: 100px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 275px;
+}
+
+.reti{
+    width: 100px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 510px;
+}
+
+.depo{
+    width: 100px;
+    border-radius: 10px;  
+    position: fixed;
+    top: 53%; 
+    left: 725px;
+}
+
+.out{
+    width: 100px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 940px;
+}
+
+.con{
+    left: 225px;
+}
+
+.ret{
+    left: 455px;
+}
+
+.dep{
+    left: 675px;
+}
+
+.sal{
+    left: 890px;
+}

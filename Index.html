@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página principal</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" href="banco.ico" />
+    <script src="BANCO.js"></script>
+  </head>
+  <body>
+    <div class="all">
+      <div class="bienvenido">
+        <h1>Bienvenido a banco ¡Supérate!</h1>
+      </div>
+    </div>
+
+    <img src="consulta.png" alt="" class="consul" onclick="ConsultaSaldo()"/>
+    <button onclick="ConsultaSaldo()" class="con"><b>Saldo de cuenta</b></button>
+
+    <img src="retiro.png" alt="" class="reti" onclick="RetirarMonto()"/>
+    <button onclick="RetirarMonto()" class="ret"><b>Retirar monto</b></button>
+    
+    <img src="deposito.png" alt="" class="depo" onclick="AbonarCuenta()"/>
+    <button onclick="AbonarCuenta()" class="dep"><b>Depositar</b></button>
+   
+    <img src="salir.png" alt="" class="out" onclick="Salir()"/>
+    <button onclick="Salir()" class="sal"><b>Salir</b></button>
+  </body>
+</html>
